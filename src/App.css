@@ -1,13 +1,18 @@
 body {
-  background: #f9f8fe;
+  background: rgb(34, 193, 195);
+  background: linear-gradient(0deg, #068b78 0%, #9ed79a 100%);
 }
 
 a {
-  color: #9670f4;
+  color: #068b78;
+}
+
+img {
+  max-width: 20%;
 }
 
 .App {
-  max-width: 960px;
+  max-width: 600px;
   margin: 0 auto;
 }
 
@@ -16,7 +21,7 @@ a {
 }
 
 .App-logo {
-  max-width: 200px;
+  max-width: 150px;
   display: block;
   margin: 0 auto;
 }
@@ -24,4 +29,9 @@ a {
 .App-footer {
   text-align: center;
   margin: 30px 0;
+  font-size: 18px;
+}
+
+.App-footer a {
+  color: #f7cc0e;
 }
