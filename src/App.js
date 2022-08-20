@@ -7,11 +7,15 @@ export default function App() {
     <div className="App">
       <div className="container">
         <header className="App-header">
-          <img
-            src={logomartilda1}
-            className="App-logo img-fluid"
-            alt="logomartilda1"
-          />
+          {" "}
+          <span className="title">
+            <img
+              src={logomartilda1}
+              className="App-logo img-fluid"
+              alt="logomartilda1"
+            />{" "}
+            <h4>art of diction</h4>
+          </span>
         </header>
         <main>
           <Dictionary defaultKeyword="experience" />
